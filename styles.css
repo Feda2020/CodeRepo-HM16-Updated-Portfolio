@@ -1,0 +1,33 @@
+.nav-wrapper {
+    text-align: center;
+    background-color: black;
+}
+.brand-logo {
+font-size: 100px;
+font-family: 'Monoton', cursive;
+color: white;
+}
+
+body {
+    background-color: white;
+}
+#menuLink1 {
+    color: white;
+}
+#recItem {
+    color: white;
+}
+.parallax-container {
+    height: "500";
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  
