@@ -46,3 +46,12 @@ body {
   main {
     flex: 1 0 auto;
   }
+  .about_social-icon {
+    font-size: 1.6rem;
+    color: grey;
+    margin: 0 var(--mb-1);
+}
+
+.about_social-icon:hover {
+    color: var(--first-color);
+}
