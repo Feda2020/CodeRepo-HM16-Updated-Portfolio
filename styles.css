@@ -6,6 +6,24 @@
 font-family: 'Monoton', cursive;
 color: white;
 }
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: black;
+  box-shadow: 0 0 10px rgb(0, 0, 0.25);
+  color: white;
+  outline: white;
+  cursor: pointer;
+  border: none;
+}
+
+#btnScrollToTop:active {
+  background: gray;
+}
 
 body {
     background-color: white;
@@ -28,22 +46,3 @@ body {
   main {
     flex: 1 0 auto;
   }
-  #btnScrollToTop {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: black;
-    box-shadow: 0 0 10px rgb(0, 0, 0.25);
-    color: white;
-    outline: white;
-    cursor: pointer;
-    border: none;
-  }
-
-  #btnScrollToTop:active {
-    background: gray;
-  }
-  
