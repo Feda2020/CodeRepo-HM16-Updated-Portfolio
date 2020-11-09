@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">    
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+ 
 </head>
 <body>
   <nav class="nav-wrapper">
       <div class="container">
-        <a href="#!" class="brand-logo right-align">Feda</a>
+        <a class="brand-logo">Feda</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-links">
          <i class="material-icons">menu</i> 
         </a>
@@ -34,19 +36,27 @@
     <h2 class="header">About</h2>
     <div class="card horizontal">
       <div class="card-image">
-        <img src="/asset/Feda.JPG" height="400">
+        <img class= "responsive" src="/asset/Feda.JPG">
       </div>
       <div class="card-stacked">
         <div class="card-content">
           <h2 class="about_subtitle ">Feda Zidan</h2>
           <span class="about_profession ">Web Developer</span>
-          <p>I'm a Full Stack Web Development student at the University of Texas San Antonio, through my studies I gained lots of knowledge on html, CSS, JavaScript, Jquery and continue to learn new coding languages. I'm also bilingual speaks Arabic
-            & English with ability to translate, edit in both languages. I"m an inspired self-taught artist. I love to draw humans specially faces and eyes.</p>
+          <div class="about_social">
+            <a href="https://www.linkedin.com/in/feda-zidan-72923a2b/" class="about_social-icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/Feda2020" class="about_social-icon"><i class='bx bxl-github' ></i></a>
+            <a href="asset/Feda.pdf" class="about_social-icon"><i class='bx bx-book'></i></a>
+
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
         </div>
       </div>
+    </div>
+    <div class="card-action">
+        <p>I'm a Full Stack Web Development student at the University of Texas San Antonio, through my studies 
+          I gained lots of knowledge on html, CSS, JavaScript, Jquery and continue to learn new coding languages. 
+          I'm also bilingual speaks Arabic& English with ability to translate, edit in both languages. I"m an 
+          inspired self-taught artist. I love to draw humans specially faces and eyes.</p>
+
     </div>
   </div>
     <div class="parallax-container">
@@ -56,6 +66,72 @@
       <div class="row container scrollspy" id="portfolio">
         <h2 class="header">Portfolio</h2>
         <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      <div class="row">
+        <div class="col 14 m3 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/asset/pizzaClawWalkTrough.gif">
+              
+            </div>
+            <div class="card-content">
+              <span class="card-title">Card Title</span>
+              
+            </div>
+            <div class="card-action">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col 14 m3 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/asset/Random_Food_Project.gif">
+              
+            </div>
+            <div class="card-content">
+              <span class="card-title">Card Title</span>
+              
+            </div>
+            <div class="card-action">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col 14 m3 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/asset/heroku-burger.gif">
+              
+            </div>
+            <div class="card-content">
+              <span class="card-title">Card Title</span>
+              
+            </div>
+            <div class="card-action">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col 14 m3 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/asset/heroku-burger.gif">
+              
+            </div>
+            <div class="card-content">
+              <span class="card-title">Card Title</span>
+              
+            </div>
+            <div class="card-action">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
     <div class="parallax-container">
