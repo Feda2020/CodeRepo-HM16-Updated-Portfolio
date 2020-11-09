@@ -55,3 +55,36 @@ body {
 .about_social-icon:hover {
     color: var(--first-color);
 }
+.footer {
+  background-color: black;
+}
+
+.footer_container {
+  row-gap: 2rem;
+}
+
+.footer_title {
+  font-size: medium;
+  color: white;
+  margin-bottom: var(--mb-2);
+}
+
+.footer_link {
+  padding: .25rem 0;
+}
+
+.footer_link:hover {
+  color: var(--first-color);
+}
+
+.footer_social {
+  font-size: 1.4rem;
+  margin-right: var(--mb-1);
+}
+
+.footer_social:hover {
+  color: var(--first-color);
+}
+.footer_container {
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
