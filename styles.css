@@ -55,6 +55,7 @@ body {
 .about_social-icon:hover {
     color: var(--first-color);
 }
+
 .footer {
   background-color: black;
 }
@@ -88,3 +89,4 @@ body {
 .footer_container {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+}

@@ -15,7 +15,7 @@
 <body>
   <nav class="nav-wrapper">
       <div class="container">
-        <a class="brand-logo">Feda</a>
+        <a class="brand-logo" id="home">Feda</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-links">
          <i class="material-icons">menu</i> 
         </a>
@@ -43,9 +43,9 @@
           <h2 class="about_subtitle ">Feda Zidan</h2>
           <span class="about_profession ">Web Developer</span>
           <div class="about_social">
-            <a href="https://www.linkedin.com/in/feda-zidan-72923a2b/" class="about_social-icon"><i class='bx bxl-linkedin' ></i></a>
-            <a href="https://github.com/Feda2020" class="about_social-icon"><i class='bx bxl-github' ></i></a>
-            <a href="asset/Feda.pdf" class="about_social-icon"><i class='bx bx-book'></i></a>
+            <a href="https://www.linkedin.com/in/feda-zidan-72923a2b/" class="about_social-icon"><i class='bx bxl-linkedin' ></i>LinkedIn</a>
+            <a href="https://github.com/Feda2020" class="about_social-icon"><i class='bx bxl-github' ></i> GitHub </a>
+            <a href="asset/Feda.pdf" class="about_social-icon"><i class='bx bx-book'></i>Resume</a>
 
         </div>
         </div>
@@ -78,8 +78,8 @@
               <a href="https://pizzaclawfeda.herokuapp.com/" class="portfolio_link-name">Project2 - Pizza Claw</a>              
             </div>
             <div class="card-action">
-              <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+              <p>This is a fun Pizza order application called Pizza Claw. The app was done with MySQL, Node, 
+                Express, Handlebars, Passport and ESlint.</p>
             </div>
           </div>
         </div>
@@ -93,8 +93,8 @@
               <a href="https://glitch-ed.github.io/random_food_project/" class="portfolio_link-name">Project1 - Random Food Project</a>              
             </div>
             <div class="card-action">
-              <p>Random Food Search App allow users search for nearby restaurants and recipes by cuisine and will 
-                display address and link to the restaurants and ingredients/instructions for the recipes.</p>
+              <p>Random Food Search App allow users to search for nearby restaurants and recipes by cuisine. This will 
+                render data about restaurants and recipes with links</p>
             </div>
           </div>
         </div>
@@ -137,20 +137,34 @@
     <button id="btnScrollToTop">
       <i class="material-icons">arrow_upward</i>
     </button>
+    
     <footer class="page-footer black scrollspy" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
+          <div class="col l2 s12">
             <h5 class="white-text">Feda Zidan</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            <div class="footer_data">
+              <h2 class="footer_title">Follow</h2>
+              <a href="https://www.facebook.com/fedoo311" class="footer_social"><i class='bx bxl-facebook' ></i></a>
+              <a href="https://www.instagram.com/fedoo311" class="footer_social"><i class='bx bxl-instagram' ></i></a>
+              <a href="https://twitter.com/fedoo2311" class="footer_social"><i class='bx bxl-twitter' ></i></a>
+          </div>
+          </div>
+          <div class="col l2 offset-l2 s12">
+            <h5 class="white-text">Contacts</h5>
+            <ul>
+              <li><a>Email</a></li>
+              <span class="contact_text">fido311@gmail.com</span>
+              <li><a>Phone</a></li>
+              <span class="contact_text">210-837-7450</span>
+            </ul>
           </div>
           <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
+            <h5 class="white-text">Explore</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              <li><a href="#" class="footer_link">Home</a></li>
+              <li><a href="#about" class="footer_link">About</a></li>
+              <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
             </ul>
           </div>
         </div>
