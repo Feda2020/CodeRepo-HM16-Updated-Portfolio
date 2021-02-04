@@ -8,14 +8,10 @@ btnScrollToTop.addEventListener("click", function () {
 $(document).ready(function(){
     $(".sidenav").sidenav();
   });
-  $('.sidenav li').click(() => {
+  $('.sidenav li').click(function (){
     $('.sidenav').sidenav('close');
   })
   //Parallax Initialization
     $(document).ready(function(){
     $(".parallax").parallax();
   });
-
-
-
-

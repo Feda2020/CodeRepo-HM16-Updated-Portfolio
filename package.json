@@ -1,0 +1,20 @@
+{
+  "name": "coderepo-hm16-updated-portfolio",
+  "version": "1.0.0",
+  "description": "This website if my updated portfolio with contacts to my GitHub, LinkedIn, Facebook, Twitter and an updated resume. My portfolio also featuring the 2 projects I accomplished and 4 exemplary homework assignments.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feda2020/CodeRepo-HM16-Updated-Portfolio.git"
+  },
+  "author": "Feda Zidan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feda2020/CodeRepo-HM16-Updated-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Feda2020/CodeRepo-HM16-Updated-Portfolio#readme",
+  "dependencies": {}
+}
