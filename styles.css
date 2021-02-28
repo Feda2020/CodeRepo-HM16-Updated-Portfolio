@@ -56,8 +56,8 @@ body {
     color: var(--first-color);
 }
 
-.card1-image {
-padding: 20px;
+.card-image {
+padding: 2%;
 }
 .card {
   margin: 0 auto;

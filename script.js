@@ -12,6 +12,7 @@ $(document).ready(function(){
     $('.sidenav').sidenav('close');
   })
   //Parallax Initialization
-    $(document).ready(function(){
+  $(document).ready(function(){
     $(".parallax").parallax();
   });
+  
