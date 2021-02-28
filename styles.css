@@ -55,9 +55,14 @@ body {
 .about_social-icon:hover {
     color: var(--first-color);
 }
+
+.card-image {
+padding: 20px;
+}
 .card {
   margin: 0 auto;
   max-width: 1000px;
+  height: 500px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(225px,1fr));
   gap: 20px;
